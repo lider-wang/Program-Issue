@@ -1,0 +1,24 @@
+
+        search and replace
+/-------------------------------------/
+ - command
+    * :s (subtitle)
+ - usage
+    * replace
+    * replace word
+    * search and replace
+    * 
+
+        :%s/\<foo\>/bar/gc
+/-------------------------------------/
+  % : do command in all line
+  \<word\> : exactly match the word
+  g : global
+  c : confirm in each match
+
+        :5,12s/foo/bar/g
+/-------------------------------------/
+  5,12 : from line 5 to line 12
+  s    : subtitle
+  .    : current line
+  $    : last line
