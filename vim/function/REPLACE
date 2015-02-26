@@ -7,7 +7,6 @@
     * replace
     * replace word
     * search and replace
-    * 
 
         :%s/\<foo\>/bar/gc
 /-------------------------------------/
@@ -22,3 +21,13 @@
   s    : subtitle
   .    : current line
   $    : last line
+
+            optional detail
+/-------------------------------------/
+  y : yes for replace
+  n : no for deny/skip the replacement
+  a : substituting all remain match
+  l : substitute and quit
+  q : quit this command
+  ^E,^Y : scoll the screen up or down
+
