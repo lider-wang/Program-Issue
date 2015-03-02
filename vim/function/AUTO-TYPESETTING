@@ -1,0 +1,14 @@
+        auto typesetting for code
+/-------------------------------------/
+  - command
+    * =
+  - usage
+    * code typesetting
+
+                0ggVG=
+/-------------------------------------/
+  0 : move cursor to beginning of line
+  gg: move cursor to first line
+  G : mode cursor to last line
+  V : visual line mode
+  = : typesetting
