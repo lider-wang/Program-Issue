@@ -1,0 +1,32 @@
+        git branch and merge
+/-------------------------------------/
+ - concept
+    * branch and merge is like below fig.
+
+
+    A ----- C ----- E ("master") 
+     \
+      B ----- D ----- F ("new feature")
+        fig 1. B-D-F is branch feature
+                
+    A ---- C ---- E ---- G ("master") 
+     \                  /
+      B ----- D ----- F ("new feature")
+        fig 2. merge the feature into master
+ - usage
+    * create your branch locally
+    * share the branch to Github(push)
+    * create branch based on remote's
+    * 
+    
+git checkout --track -b 
+    new_branch origin/remote_branch
+/-------------------------------------/
+    .. work ..
+    git commit
+    .. work ..
+    git commit
+    git push
+
+/-------------------------------------/
+
