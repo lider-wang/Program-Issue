@@ -17,9 +17,8 @@
     * create your branch locally
     * share the branch to Github(push)
     * create branch based on remote's
-    * 
     
-git checkout --track -b 
+        git checkout --track -b 
     new_branch origin/remote_branch
 /-------------------------------------/
     .. work ..
@@ -28,5 +27,33 @@ git checkout --track -b
     git commit
     git push
 
+          git fetch origin
 /-------------------------------------/
+  - usage
+    * fetch(updaing) the remote origin
+    * only updaing without access your
+      local working tree
+
+        git merge origin/master
+/-------------------------------------/
+  - usage
+    * merge origin/master into your working tree
+      (Ex. git checkout master -> merge to master)
+
+
+    git diff master origin/master
+/-------------------------------------/
+  - usage
+    * look up different between two branch.
+
+  - concept 
+  
+    A ---- C ---- E ---- G ("master") 
+     \                  
+      B ----- D ----- F ("new feature")
+        fig 3. need pull when want to merge
+
+    * if someone has commited the master, it needs 
+      pull (fetch-merge) the origin/master on the 
+      remote site before you want to commit.
 
