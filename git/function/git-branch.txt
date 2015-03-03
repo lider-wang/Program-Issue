@@ -40,6 +40,10 @@
     * merge origin/master into your working tree
       (Ex. git checkout master -> merge to master)
 
+    git rebase origin/master master
+/-------------------------------------/
+  - usgage
+    * rebase the current master into remote master
 
     git diff master origin/master
 /-------------------------------------/
